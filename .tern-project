@@ -1,0 +1,10 @@
+{
+  "ecmaVersion": 5,
+  "libs": [
+    "jquery"
+  ],
+  "loadEagerly": [
+    "../app/**/js/*.js"
+  ],
+  "plugins": {}
+}
