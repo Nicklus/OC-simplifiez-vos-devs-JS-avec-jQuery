@@ -4,7 +4,7 @@
     "jquery"
   ],
   "loadEagerly": [
-    "../app/**/js/*.js"
+    "app/**/js/*.js"
   ],
   "plugins": {}
 }
