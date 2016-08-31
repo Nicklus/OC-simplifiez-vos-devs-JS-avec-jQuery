@@ -127,9 +127,12 @@ $(function() {
    */
   // Parcours des images et changement de chemin
   // $("img").each(function() {
-  //   var res = this.src.split("/");
-  //   var img = res[res.length - 1];
-  //   this.src = "images/" + img;
+    // var res = this.src.split("/");
+    // var img = res[res.length - 1];
+    // this.src = "images/" + img;
+
+    // var srcOrigin = $(this).attr("src");
+    // $(this).attr("src", "images/" + $(this).attr("src"));
   // });
 
   // divs est un tableau contenant l'ensemble des div du document HTML

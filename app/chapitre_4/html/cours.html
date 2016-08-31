@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Modifier le contenu d'un élément</title>
+    <link rel="stylesheet" href="../css/monStyle.css" media="screen" title="no title" charset="utf-8">
+</head>
+
+<body>
+
+  <div id="listes">
+    <a href="http://api.jquery.com">API jQuery</a><br>
+    <a href="http://docs.jquery.com">Documentation jQuery</a><br>
+  </div>
+
+  <hr>
+
+  <div>
+    <span id="jean" class="rouge grand">Jean</span><br>
+
+    <span id="pierre">Pierre</span><br>
+
+    <span id="paul" class="vert grand">Paul</span><br>
+
+    <span id="julia">Julia</span><br>
+
+    <span id="eric" class="vert">Eric</span><br>
+
+    <span id="kevin" >Kévin</span>
+  </div>
+
+  <hr>
+
+  <div id="monForm">
+    <form>
+      Nom d'utilisateur
+      <input type="text" id="nom"><br />
+
+      Mot de passe
+      <input type="password" id="pass"><br />
+
+      Sexe
+      H <input type="radio" id="H" name="sexe" value="H">
+      F <input type="radio" id="F" name="sexe" value="F"><br />
+
+      Fonction
+      <select id="fonction">
+        <option value="etudiant">Etudiant</option>
+        <option value="ingenieur">Ingénieur</option>
+        <option value="enseignant" selected>Enseignant</option>
+        <option value="retraite">Retraité</option>
+        <option value="autre">Autre</option>
+      </select><br /><br />
+
+      <input type="submit" id="envoyer" value="Envoyer">
+      <input type="reset" id="annuler" value="Annuler">
+    </form>
+  </div>
+
+  <hr>
+
+  <div id="parent">
+    Texte dans le parent
+    <div id="enfant">
+      Texte dans l'enfant
+    </div>
+  </div>
+  <span id="res"></span>
+
+  <hr>
+
+  <div id="maDiv">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    <br><br><p>  Les valeurs stockées dans la balise sont : <span id="sp1"></span>, <span id="sp2"></span> et <span id="sp3"></span>.</p>
+  </div>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="../js/cours.js"></script>
+</body>
+
+</html>
