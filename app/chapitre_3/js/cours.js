@@ -3,7 +3,7 @@ $(function() {
    * Sélecteurs d'attributs
    */
   // Image dont l'attribut border contient partiellement ou totalement la valeur « 1 ».
-  // $("[border*='1']").css("border-color", "red");
+  $("[border*='1']").css("border-color", "red");
 
   // Image dont l'attribut title contient le mot « foto » délimité par une espace.
   // $("[title~='foto']").css("border-color", "red");
@@ -136,7 +136,7 @@ $(function() {
   // });
 
   // divs est un tableau contenant l'ensemble des div du document HTML
-  // var divs = $("div").get();
+  var divs = $("div").get();
   // Affichage du contenu de la 1re div
-  // console.log(divs[0].innerHTML);
+  console.log(divs[0].innerHTML);
 });
