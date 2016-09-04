@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Activite_partie2 : Créez un générateur de formulaires</title>
+    <style>
+      body {
+        margin: 0;
+      }
+      #gauche {
+        float: left;
+        width: 70%;
+        height: 1000px;
+        background-color: #EFECCA;
+      }
+      #droite {
+        background-color: #CEFFF8;
+        height: 1000px;
+        padding : 10px;
+        padding-left: 71%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="gauche">
+    </div>
+    <div id="droite">
+      Utilisez ces boutons pour créer votre formulaire<br><br>
+      <button id="btnLabel">Label</button>
+      <button id="btnZoneTexte">Zone de texte</button>
+      <button id="btnBouton">Bouton</button>
+      <form id="formLabel">
+        <hr>
+        <label>Texte du label</label>
+        <input type="text" name="valLabel">
+        <button id="submitFormLabel">OK</button>
+      </form>
+      <form id="formZoneTexte">
+        <hr>
+        <label>id de la zone de texte</label>
+        <input type="text" name="valZoneTexte">
+        <button id="submitFormZoneTexte">OK</button>
+      </form>
+      <form id="formBouton">
+        <hr>
+        <label>Texte du bouton</label>
+        <input type="text" name="valBouton">
+        <button id="submitFormBouton">OK</button>
+      </form>
+    </div>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="../js/activite_partie2.js"></script>
+
+  </body>
+</html>

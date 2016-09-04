@@ -62,4 +62,5 @@ $(function() {
   // $("li:nth-child(3)").remove();
   // Supprime tous les titres h2 contenant le mot "suite"
   // $("h2").remove(":contains('suite')");
+  
 });
